@@ -84,7 +84,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
                             <Add.Item>
-                                <TextArea FontSize="24" FontFamily="Times New Roman" Id="650578f8-4ae5-4bdc-9786-a9e62df3cea5" Panel.Bounds="409,307,683{5,2147483647},133{5,2147483647}" />
+                                <TextArea FontSize="24" FontFamily="Times New Roman" Id="650578f8-4ae5-4bdc-9786-a9e62df3cea5" Panel.Bounds="409,307,687{5,2147483647},71{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
@@ -152,6 +152,16 @@
                         <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
                             <Add.Item>
                                 <Icon CatalogId="fa-user" Id="313d3817-c0e4-4c26-a96f-4b182df66c83" Panel.Bounds="1207,47,26{5,2147483647},26{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Title RichText="Event Image" FontFamily="Times New Roman" Id="2ed802f2-3ca5-4dda-937a-0f7451a8950f" Panel.Bounds="197,396,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Button Text="Upload Photo" FontSize="21" FontFamily="Times New Roman" Id="0b3c7d89-b495-4899-a2cd-3ce43b115f98" Panel.Bounds="409,398,145{5,2147483647},40{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
