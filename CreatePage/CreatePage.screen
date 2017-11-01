@@ -140,7 +140,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
                             <Add.Item>
-                                <ComboBox Id="39359279-e575-4d01-88ac-f44a5042d896" Panel.Bounds="1114,46,123{5,2147483647},27{5,2147483647}">
+                                <ComboBox Hint="Navigate" Id="39359279-e575-4d01-88ac-f44a5042d896" Panel.Bounds="1114,46,123{5,2147483647},27{5,2147483647}">
                                     <ComboBox.Items>
                                         <Item Text="Profile" Id="d4623826-60c1-41e2-b991-e2213709d5eb" />
                                         <Item Text="Information" Id="4df6846b-1882-4905-a66f-3c1f9b03548d" />
