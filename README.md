@@ -4,7 +4,14 @@ This is a User Interface Prototype for a web-based application for selling ticke
 GeorgievGG has been working on:
 
 1.0 Main page - Admin + Client
+DetailsPage
+ProfilePage
 
 LiardaZZ has been working on:
 
 2.2 Create Event Page
+Purchase Page
+
+GMochev works on:
+Edit Page
+Delete Page
