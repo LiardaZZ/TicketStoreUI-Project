@@ -1,4 +1,4 @@
-# TicketStoreUI-Project
+# TicketStoreUI-Project (Using Indigo Studio)
 This is a User Interface Prototype for a web-based application for selling tickets for various venues (concerts, festivals, theater plays, etc.). 
 
 GeorgievGG has been working on:
