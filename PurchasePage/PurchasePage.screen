@@ -46,17 +46,17 @@
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <Icon CatalogId="fa-ticket" Id="1bcc5712-5940-4b20-a275-268461acf016" Panel.Bounds="147,214,40{5,2147483647},40{5,2147483647}" />
+                                <Icon CatalogId="fa-ticket" Id="1bcc5712-5940-4b20-a275-268461acf016" Panel.Bounds="183,222,40{5,2147483647},40{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <Title RichText="VIP - x$" FontFamily="Times New Roman" Id="b3bbc642-5ac5-4e2c-b069-8a6740b98850" Panel.Bounds="203,214,5*{5,2147483647},5*{5,2147483647}" />
+                                <Title RichText="VIP - x$" FontFamily="Times New Roman" Id="b3bbc642-5ac5-4e2c-b069-8a6740b98850" Panel.Bounds="239,222,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <ComboBox FontSize="21" FontFamily="Times New Roman" Id="438810ba-1439-4449-a3c6-5142ee317c2a" Panel.Bounds="570,220,65{5,2147483647},34{5,2147483647}">
+                                <ComboBox FontSize="21" FontFamily="Times New Roman" Id="438810ba-1439-4449-a3c6-5142ee317c2a" Panel.Bounds="606,228,65{5,2147483647},34{5,2147483647}">
                                     <ComboBox.Items>
                                         <Item Text="1" Id="a84a1b8f-ba60-4675-9dda-474a1fbb8dca" />
                                         <Item Text="2" Id="ed4f9559-c0e1-4f8f-87ee-168c676b6825" />
@@ -72,17 +72,17 @@
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <Icon CatalogId="fa-ticket" Id="805b8e1e-78be-4d0e-aef0-1eab28295d14" Panel.Bounds="147,287,40{5,2147483647},40{5,2147483647}" />
+                                <Icon CatalogId="fa-ticket" Id="805b8e1e-78be-4d0e-aef0-1eab28295d14" Panel.Bounds="183,295,40{5,2147483647},40{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <Title RichText="First Row - y$" FontFamily="Times New Roman" Id="24bc0a5e-1b8c-4ccb-8d97-2bfa2588395d" Name="VIP Tickets - x lv." Panel.Bounds="203,287,5*{5,2147483647},5*{5,2147483647}" />
+                                <Title RichText="First Row - y$" FontFamily="Times New Roman" Id="24bc0a5e-1b8c-4ccb-8d97-2bfa2588395d" Name="VIP Tickets - x lv." Panel.Bounds="239,295,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <ComboBox FontSize="21" FontFamily="Times New Roman" Id="f0c12012-771a-4900-81f7-1f528b679251" Panel.Bounds="570,293,65{5,2147483647},34{5,2147483647}">
+                                <ComboBox FontSize="21" FontFamily="Times New Roman" Id="f0c12012-771a-4900-81f7-1f528b679251" Panel.Bounds="606,301,65{5,2147483647},34{5,2147483647}">
                                     <ComboBox.Items>
                                         <Item Text="1" Id="af1aaa44-d3d2-4b0a-9100-bff834a6ae8f" />
                                         <Item Text="2" Id="3ebf4e44-ad46-4852-855c-8fd72ed0a95b" />
@@ -98,17 +98,17 @@
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <Icon CatalogId="fa-ticket" Id="56102538-2c52-4011-9052-718638a6b969" Panel.Bounds="147,365,40{5,2147483647},40{5,2147483647}" />
+                                <Icon CatalogId="fa-ticket" Id="56102538-2c52-4011-9052-718638a6b969" Panel.Bounds="183,373,40{5,2147483647},40{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <Title RichText="Inner Side - z$" FontFamily="Times New Roman" Id="bacc1599-fe88-4dc0-8a53-b63ed99911c6" Panel.Bounds="203,365,5*{5,2147483647},5*{5,2147483647}" />
+                                <Title RichText="Inner Side - z$" FontFamily="Times New Roman" Id="bacc1599-fe88-4dc0-8a53-b63ed99911c6" Panel.Bounds="239,373,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <ComboBox FontSize="21" FontFamily="Times New Roman" Id="c22f8e05-9db8-421f-8065-fd1970baf015" Panel.Bounds="570,371,65{5,2147483647},34{5,2147483647}">
+                                <ComboBox FontSize="21" FontFamily="Times New Roman" Id="c22f8e05-9db8-421f-8065-fd1970baf015" Panel.Bounds="606,379,65{5,2147483647},34{5,2147483647}">
                                     <ComboBox.Items>
                                         <Item Text="1" Id="0bceb3db-edbe-4373-91ee-2c304d609a49" />
                                         <Item Text="2" Id="431be362-ef17-4283-aa12-653148378557" />
@@ -124,17 +124,17 @@
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <Icon CatalogId="fa-ticket" Id="791b44d6-7249-4050-903e-25be08fd3d98" Panel.Bounds="147,445,40{5,2147483647},40{5,2147483647}" />
+                                <Icon CatalogId="fa-ticket" Id="791b44d6-7249-4050-903e-25be08fd3d98" Panel.Bounds="183,453,40{5,2147483647},40{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <Title RichText="Outer Side - n$" FontFamily="Times New Roman" Id="decd3f81-08eb-4b35-9116-f175330de05d" Panel.Bounds="203,445,5*{5,2147483647},5*{5,2147483647}" />
+                                <Title RichText="Outer Side - n$" FontFamily="Times New Roman" Id="decd3f81-08eb-4b35-9116-f175330de05d" Panel.Bounds="239,453,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <ComboBox FontSize="21" FontFamily="Times New Roman" Id="02dfe566-1c65-4482-965a-9d63823bc456" Panel.Bounds="570,451,65{5,2147483647},34{5,2147483647}">
+                                <ComboBox FontSize="21" FontFamily="Times New Roman" Id="02dfe566-1c65-4482-965a-9d63823bc456" Panel.Bounds="606,459,65{5,2147483647},34{5,2147483647}">
                                     <ComboBox.Items>
                                         <Item Text="1" Id="3c90838c-dcb8-49c7-8921-b84fd907aa1c" />
                                         <Item Text="2" Id="f56b288d-fa27-4594-bea1-5157cb5e6f8e" />
@@ -150,17 +150,17 @@
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <Icon CatalogId="fa-ticket" Id="bbeb967a-b393-4d85-9992-c3fb7df3983a" Panel.Bounds="147,526,40{5,2147483647},40{5,2147483647}" />
+                                <Icon CatalogId="fa-ticket" Id="bbeb967a-b393-4d85-9992-c3fb7df3983a" Panel.Bounds="183,534,40{5,2147483647},40{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <Title RichText="Balcony - t$" FontFamily="Times New Roman" Id="9e8abc50-a496-4bce-965c-eadd784589bd" Panel.Bounds="203,526,5*{5,2147483647},5*{5,2147483647}" />
+                                <Title RichText="Balcony - t$" FontFamily="Times New Roman" Id="9e8abc50-a496-4bce-965c-eadd784589bd" Panel.Bounds="239,534,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <ComboBox FontSize="21" FontFamily="Times New Roman" Id="2c2269bb-7ae1-4a8f-938f-c170dc73b695" Panel.Bounds="570,532,65{5,2147483647},34{5,2147483647}">
+                                <ComboBox FontSize="21" FontFamily="Times New Roman" Id="2c2269bb-7ae1-4a8f-938f-c170dc73b695" Panel.Bounds="606,540,65{5,2147483647},34{5,2147483647}">
                                     <ComboBox.Items>
                                         <Item Text="1" Id="9930603c-d495-44c6-81ee-dfe3b2e805ca" />
                                         <Item Text="2" Id="7fc0b398-1413-417c-8251-c2caaf727615" />
@@ -176,17 +176,17 @@
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <Icon CatalogId="fa-ticket" Id="6af02b02-f289-4434-9881-6d5b4bf006f8" Panel.Bounds="147,609,40{5,2147483647},40{5,2147483647}" />
+                                <Icon CatalogId="fa-ticket" Id="6af02b02-f289-4434-9881-6d5b4bf006f8" Panel.Bounds="183,617,40{5,2147483647},40{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <Title RichText="Children Pass(0-14) - c$" FontFamily="Times New Roman" Id="1227a978-2a45-4fd1-ac8e-1f50085a9b4d" Panel.Bounds="203,609,5*{5,2147483647},5*{5,2147483647}" />
+                                <Title RichText="Children Pass(0-14) - c$" FontFamily="Times New Roman" Id="1227a978-2a45-4fd1-ac8e-1f50085a9b4d" Panel.Bounds="239,617,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <ComboBox FontSize="21" FontFamily="Times New Roman" Id="049fa972-063e-454a-a759-0c30b597ace7" Panel.Bounds="570,615,65{5,2147483647},34{5,2147483647}">
+                                <ComboBox FontSize="21" FontFamily="Times New Roman" Id="049fa972-063e-454a-a759-0c30b597ace7" Panel.Bounds="606,623,65{5,2147483647},34{5,2147483647}">
                                     <ComboBox.Items>
                                         <Item Text="1" Id="907f5c45-b59a-4edf-80be-0c62b61a8a1f" />
                                         <Item Text="2" Id="3f90d677-2d61-458d-804d-71a3b2351d61" />
@@ -211,17 +211,17 @@
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <Icon CatalogId="fa-ticket" Id="6e3ba6b8-835c-4e03-9467-a94d3f79afa7" Panel.Bounds="147,689,40{5,2147483647},40{5,2147483647}" />
+                                <Icon CatalogId="fa-ticket" Id="6e3ba6b8-835c-4e03-9467-a94d3f79afa7" Panel.Bounds="183,697,40{5,2147483647},40{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <Title RichText="Teen Pass(15-18) - v$" FontFamily="Times New Roman" Id="010b55ab-57b4-4d33-ab41-30857ffcf846" Panel.Bounds="203,689,5*{5,2147483647},5*{5,2147483647}" />
+                                <Title RichText="Teen Pass(15-18) - v$" FontFamily="Times New Roman" Id="010b55ab-57b4-4d33-ab41-30857ffcf846" Panel.Bounds="239,697,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <ComboBox FontSize="21" FontFamily="Times New Roman" Id="5b90de3a-30c4-4bea-bb5b-12944b4b85d7" Panel.Bounds="570,695,65{5,2147483647},34{5,2147483647}">
+                                <ComboBox FontSize="21" FontFamily="Times New Roman" Id="5b90de3a-30c4-4bea-bb5b-12944b4b85d7" Panel.Bounds="606,703,65{5,2147483647},34{5,2147483647}">
                                     <ComboBox.Items>
                                         <Item Text="1" Id="bff06c65-5f3d-4d84-b88e-d5f444ec2e82" />
                                         <Item Text="2" Id="c7377085-0245-415a-8ba7-0505fe21a2d9" />
@@ -237,17 +237,17 @@
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <Image Id="8bffab30-957e-4000-bbac-ed7acacac915" Panel.Bounds="719,214,478{5,2147483647},515{5,2147483647}" />
+                                <Image Id="8bffab30-957e-4000-bbac-ed7acacac915" Panel.Bounds="755,222,478{5,2147483647},515{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <Title RichText="Event Name - Date" FontSize="48" FontFamily="Times New Roman" Id="c22e0a2f-4d71-410e-8396-38cc9d3de907" Panel.Bounds="773,165,0*{5,2147483647},0*{5,2147483647}" />
+                                <Title RichText="Event Name - Date" FontSize="48" FontFamily="Times New Roman" Id="c22e0a2f-4d71-410e-8396-38cc9d3de907" Panel.Bounds="809,173,0*{5,2147483647},0*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
-                                <Label RichText="Event Photo" FontSize="24" FontFamily="Times New Roman" Id="6da75cc0-ad4b-478a-955b-3d2da3c7076f" Panel.Bounds="901,422,156{5,2147483647},26{5,2147483647}" />
+                                <Label RichText="Event Photo" FontSize="24" FontFamily="Times New Roman" Id="6da75cc0-ad4b-478a-955b-3d2da3c7076f" Panel.Bounds="937,430,156{5,2147483647},26{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
@@ -258,6 +258,11 @@
                         <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
                             <Add.Item>
                                 <Button Text="Cancel" FontSize="24" FontFamily="Times New Roman" Id="f9fa9c9a-ce64-49bb-acc8-d40030ccbcef" Panel.Bounds="1078,949,176{5,2147483647},53{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="996505d1-7551-4277-b668-2508888e3a96">
+                            <Add.Item>
+                                <Image Tooltip="Profile picture" Id="37a83df3-b2aa-4d26-ae52-d6b0d6ae003e" Panel.Bounds="12,80,146{5,2147483647},926{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
