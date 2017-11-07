@@ -1,6 +1,6 @@
 ﻿<?Infragistics.Models format="xaml" version="4" appVersion="9.2.1000.51"?>
 <Project xmlns="http://prototypes.infragistics.com/"
-                                                                                     Id="77YY7GVIP5PU" StartScreens="/CreatePage.screen" IndigoVersion="9" LastUsedFonts="Times New Roman">
+                                                                                     Id="77YY7GVIP5PU" StartScreens="/EditPage.screen" IndigoVersion="9" LastUsedFonts="Times New Roman">
     <Project.Defaults>
         <ProjectDefaults Viewport="1280,1024">
             <ProjectDefaults.Device>
