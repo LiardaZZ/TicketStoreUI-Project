@@ -1,0 +1,11 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="9.2.1000.51"?>
+<Project xmlns="http://prototypes.infragistics.com/"
+                                                                                     Id="TGB2DHLCKXDU" StartScreens="/TicketStoreUI-Project/FinalProduct/AdminScreen.screen" IndigoVersion="9">
+    <Project.Defaults>
+        <ProjectDefaults Viewport="1280,1024">
+            <ProjectDefaults.Device>
+                <DeviceInfo Id="Browser" Orientation="None" />
+            </ProjectDefaults.Device>
+        </ProjectDefaults>
+    </Project.Defaults>
+</Project>

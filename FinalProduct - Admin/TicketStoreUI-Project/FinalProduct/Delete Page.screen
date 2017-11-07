@@ -1,0 +1,169 @@
+<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="9f208fe6-0f06-4bd9-9094-da00813bdde8">
+    <Page.Content>
+        <Content Width="1280" Height="1024" Id="963925cf-ff9e-4c4c-8d04-3591012128f6">
+            <Content.Layers>
+                <Layer Id="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="9b25b667-9122-4ca4-ab3a-da4979129d38" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1280,1024" Id="6de2d3b9-88cc-4c1f-bf36-c7fca0226e51" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="9fe5301f-c2c0-4a6a-980a-a91de6fff510" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/05/2017 19:43:33" Id="a257c850-7f52-4f41-9d71-4476249f6e30">
+            <Scene.KeyFrames>
+                <KeyFrame Id="ec4a625e-a7da-4d3d-8fa4-81d885f5fe0e">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <Title RichText="&lt;Run FontSize=&quot;60&quot; FontFamily=&quot;Times New Roman&quot; &gt;Delete event&lt;/Run&gt;" Align="Center" FontFamily="Open Sans" Id="a1221b35-7871-40ff-b8b4-36495d4ce6cd" Panel.Bounds="190,52,917{5,2147483647},69*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="a1221b35-7871-40ff-b8b4-36495d4ce6cd" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <Image Id="fb91c304-249f-47ce-9cde-04a3014a2cdc" Panel.Bounds="203,147,917{5,2147483647},602{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <TextBox Text="Event Title" FontSize="34" FontFamily="Times New Roman" Id="85c60d1e-a25f-4eea-9d50-f1510029dcf0" Panel.Bounds="230,159,260{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <TextBox Text="Event Type" FontSize="34" FontFamily="Times New Roman" Id="a4dd9f4d-5723-480d-9bcd-67ae0c2b272c" Panel.Bounds="230,222,260{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <TextBox Text="Event Description" FontSize="34" FontFamily="Times New Roman" Id="7d88d8a8-7c1d-477f-bba2-d421440c04c6" Panel.Bounds="230,285,260{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <TextBox Text="Event Date" FontSize="34" FontFamily="Times New Roman" Id="e5a792f3-c71f-4bf4-835b-ed9cd6b0f1cf" Panel.Bounds="230,500,260{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <TextBox Text="Tickets Available" FontSize="34" FontFamily="Times New Roman" Id="a0350bfd-fdd2-4009-9098-981cde242fb4" Panel.Bounds="230,561,260{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <TextBox Text="Ticket Price" FontSize="34" FontFamily="Times New Roman" Id="4b4ad587-fabc-4675-ad37-49b8571ffa9e" Panel.Bounds="230,619,260{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <TextBox Text="Event Location" FontSize="34" FontFamily="Times New Roman" Id="e2590d17-1510-4c08-9556-a0a81a1cd999" Panel.Bounds="230,677,260{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <TextBox Text="Metallica WorldWired Tour" FontSize="34" FontFamily="Times New Roman" Id="39dcb8c2-ed05-40d2-b3e0-a2c85ccea0d2" Panel.Bounds="525,159,556{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <TextBox Text="Concert/Party" FontSize="34" FontFamily="Times New Roman" Id="c7d0a284-e60e-446e-80d0-dfae0482ff02" Panel.Bounds="521,222,559{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <TextArea Text="The WorldWired Tour is a current concert tour by American heavy metal band Metallica in support of their tenth studio album Hardwired..." FontSize="36" FontFamily="Times New Roman" Id="db9e70a8-f713-4a59-b42d-66dea8328a1f" Panel.Bounds="521,285,556{5,2147483647},179{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <TextBox Text="01/02/2018" FontSize="34" FontFamily="Times New Roman" Id="fd73c38f-5cbf-4781-8b11-893fec2f5946" Panel.Bounds="527,500,550{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <TextBox Text="3000" FontSize="34" FontFamily="Times New Roman" Id="f3e618a5-650d-4a73-b334-c6e4098249d1" Panel.Bounds="527,561,550{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <TextBox Text="80€" FontSize="34" FontFamily="Times New Roman" Id="3892336e-6376-4138-8e67-2abd3fadc71c" Panel.Bounds="527,619,550{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <TextBox Text="Lisbon,Portugal,Altice Arena" FontSize="34" FontFamily="Times New Roman" Id="0908b04f-7f17-4dc7-bf6f-b95adbcd592e" Panel.Bounds="527,677,550{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <Button Text="Delete" FontSize="36" FontFamily="Times New Roman" Id="cc12e5ef-0c0e-41ad-b279-180d7df95dd1" Panel.Bounds="821,806,140{5,2147483647},53{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/TicketStoreUI-Project/FinalProduct/AdminScreen.screen" Created="11/07/2017 11:56:06" Id="6e584146-5790-4fd0-b6e1-8d88d7adcb6b">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <Button Text="Cancel" FontSize="36" FontFamily="Times New Roman" Id="ec8ca706-193a-4928-a89a-0e6dd4d40644" Panel.Bounds="992,806,128{5,2147483647},53{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/TicketStoreUI-Project/FinalProduct/AdminScreen.screen" Created="11/07/2017 11:56:16" Id="e3f65966-e9d0-4db3-85cf-6e6f1cecc360">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <ComboBox Hint="Navigate" Id="40f78a3a-de98-4591-9e23-f8db0f26618f" Panel.Bounds="1114,46,123{5,2147483647},27{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Profile" Id="5b7d1a9d-24f7-49a8-bbfd-2355dc34d8d0">
+                                            <Item.Selected>
+                                                <CommandNavigate Screen="/TicketStoreUI-Project/FinalProduct/ProfilePage.screen" Created="11/07/2017 11:55:32" Id="c50b2514-3df1-42c8-8b7f-5dd3bc0a6a3b">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Item.Selected>
+                                        </Item>
+                                        <Item Text="Information" Id="15c2a9b6-42f5-47ce-8495-5c68747a02cb">
+                                            <Item.Selected>
+                                                <CommandNavigate Screen="/TicketStoreUI-Project/FinalProduct/AdminScreen.screen" Created="11/07/2017 11:55:40" Id="4b0499c2-e5eb-40cc-a9bd-05d6953115b7">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Item.Selected>
+                                        </Item>
+                                        <Item Text="Basket" Id="822ee7bd-58e8-4ee3-8e98-0eea00d9b3ff" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fe5e7f07-bde7-4786-9bcb-21e58b0d63cf">
+                            <Add.Item>
+                                <Icon CatalogId="fa-user" Id="47a24d02-0379-45aa-8b65-9fece935c9f7" Panel.Bounds="1211,46,26{5,2147483647},26{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

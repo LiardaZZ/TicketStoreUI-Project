@@ -1,0 +1,290 @@
+<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="60f42dd0-9e78-4c7c-9d6c-172c0fe893de">
+    <Page.Content>
+        <Content Width="1280" Height="1024" Id="8fbdd298-26b9-49bb-9a04-5cac7667f969">
+            <Content.Layers>
+                <Layer Id="dce34f5a-abc5-4e7a-997e-b2325db31b57" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="6588dfd3-b27d-42e3-8aed-a741f455564c" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1280,1024" Id="02ca80d3-f76c-4ca9-b1e4-ef0af07edf44" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="24fab869-75c2-4a3d-8a53-984efcb73eff" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/05/2017 23:39:55" Id="9d29cb09-ddfd-4577-b350-1c62e08cdcf0">
+            <Scene.KeyFrames>
+                <KeyFrame Id="dc01dee4-ccde-4047-b9b2-094ee1bfd8a8">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="dce34f5a-abc5-4e7a-997e-b2325db31b57">
+                            <Add.Item>
+                                <Title RichText="Ticket Manager" FontSize="72" FontFamily="Times New Roman" Id="4820db1e-5957-468f-88d3-2ba1afe1fa03" Panel.Bounds="422,44,480{5,2147483647},89{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="dce34f5a-abc5-4e7a-997e-b2325db31b57">
+                            <Add.Item>
+                                <ComboBox Hint="Navigate" Id="3b443e61-dea9-4487-9a3d-435f697d04ae" Panel.Bounds="1114,46,123{5,2147483647},27{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Profile" Id="eac39ed4-f38b-43c0-a0d9-5fcdf3c02c74">
+                                            <Item.Selected>
+                                                <CommandNavigate Screen="/TicketStoreUI-Project/FinalProduct/ProfilePage.screen" Created="11/07/2017 11:59:55" Id="2b47dd5b-6e20-483d-a173-fa47524ca86d">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Item.Selected>
+                                        </Item>
+                                        <Item Text="Information" Id="22bebb6e-e27e-4531-8542-3915be10e3ec">
+                                            <Item.Selected>
+                                                <CommandNavigate Screen="/TicketStoreUI-Project/FinalProduct/AdminScreen.screen" Created="11/07/2017 12:00:06" Id="ecc7a1d2-023c-4abc-9cc6-22e82a25ebbe">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Item.Selected>
+                                        </Item>
+                                        <Item Text="Basket" Id="a5e0d2bc-b54d-4bd1-81d6-2a61db486dc1" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="dce34f5a-abc5-4e7a-997e-b2325db31b57">
+                            <Add.Item>
+                                <Icon CatalogId="fa-user" Id="af1ba9be-1adf-4f4e-863b-2d96077eb620" Panel.Bounds="1210,46,26{5,2147483647},26{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="dce34f5a-abc5-4e7a-997e-b2325db31b57">
+                            <Add.Item>
+                                <OptionGroup FontSize="24" FontFamily="Times New Roman" Id="9166d476-daba-43cf-9666-1230b8f67f39" Panel.Bounds="259,288,5*{5,2147483647},5*{5,2147483647}">
+                                    <OptionGroup.Items>
+                                        <Option Text="Event Name" Id="e83d0663-c89a-49e7-8fda-618166410652" />
+                                        <Option Text="Location" Id="b9581a88-ef74-4c4c-b5fc-9db7c0720d05" />
+                                        <Option Text="Available Tickets" Id="34992614-a2a1-47cc-8f18-682a523f6e6a" />
+                                        <Option Text="Event Type" Id="7e2371c2-b6be-4c53-afc6-dbacee53eaf4" />
+                                        <Option Text="Event Date" Id="9d7c8966-79cc-456b-9acc-400346062680" />
+                                        <Option Text="Ticket Price" Id="c4088b76-ae10-41ab-8502-40d862538b6f" />
+                                    </OptionGroup.Items>
+                                </OptionGroup>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="dce34f5a-abc5-4e7a-997e-b2325db31b57">
+                            <Add.Item>
+                                <Grid FontSize="21" FontFamily="Times New Roman" HeaderFontSize="21" HeaderFontFamily="Times New Roman" Id="19d94c9c-8fd2-4acb-9dae-7dba84961f93" Panel.Bounds="254,334,983{5,2147483647},504{5,2147483647}">
+                                    <Grid.HeaderRow>
+                                        <GridHeaderRow FontStyle="" Height="32" Id="caef901d-f240-4646-8419-a25c2ed12092" />
+                                    </Grid.HeaderRow>
+                                    <Grid.Columns>
+                                        <GridColumn ColumnId="2c0b9e48-0730-4462-9da7-931dfc3ebcc4" Type="Text" Width="140" Id="729c9ae6-2822-4c9a-ab8e-886c8521b2ec">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="2c0b9e48-0730-4462-9da7-931dfc3ebcc4" Value="Event Name" Opacity="1" Id="193f21a5-bf40-444e-8dfc-6e1f26793b98" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="79d2d714-3ab1-4a84-aac9-f011536420f1" Type="Text" Width="129" Id="3d43561d-198e-4746-bf76-11f6628319db">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="79d2d714-3ab1-4a84-aac9-f011536420f1" Value="Location" Opacity="1" Id="c29fa670-8d25-4186-a140-299a3e186a60" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="00cd8154-5dea-4a4e-ad6b-5f3bd31d9d3a" Type="Text" Width="180" Id="d96c98df-c3b3-41c8-af32-a248b87888af">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="00cd8154-5dea-4a4e-ad6b-5f3bd31d9d3a" Value="Available Tickets" Opacity="1" Id="6199fdac-8b3a-4820-83a2-db69e443ceea" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="b5c0fddd-7567-4889-b4f7-ce324e68624e" Type="Text" Width="146" Id="a57e35f0-674c-4b17-b270-6a89fedc79f4">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="b5c0fddd-7567-4889-b4f7-ce324e68624e" Value="Event Type" Opacity="1" Id="4fd40c51-8683-4363-af53-c6b40f0a1b3a" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="473d6fdb-07e6-4c8d-8c31-695177e10041" Type="Text" Width="142" Id="457e0207-d51a-47d9-a8fc-d979c261c67a">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="473d6fdb-07e6-4c8d-8c31-695177e10041" Value="Event Date" Opacity="1" Id="45298c37-a14a-4e21-8925-dcee467804a8" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="ff3f3cfd-f738-4356-84fc-4cc9ab6eb0c7" Type="Text" Width="157" Id="7635d674-9df6-4ba4-9c4b-af1e424ae138">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="ff3f3cfd-f738-4356-84fc-4cc9ab6eb0c7" Value="Ticket Price" Opacity="1" Id="c91337ef-fdfc-4fac-972b-9c04ff7e1285" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="6476c4a4-f67e-4f3a-9c1d-64acc28ababf" Type="Text" Width="86" Id="a3408f8c-ef40-43e5-a8d5-1ad5520990a7">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="6476c4a4-f67e-4f3a-9c1d-64acc28ababf" Value="Change" Opacity="1" Id="ecb28983-2b69-4bd6-be4b-a94e41b6ed0f" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                    </Grid.Columns>
+                                    <Grid.Rows>
+                                        <GridRow Height="44" Id="0e510a94-d16d-4069-ba4e-40209fbc8b07">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="2c0b9e48-0730-4462-9da7-931dfc3ebcc4" Value="Galena" Opacity="1" Id="6de5afb9-6193-4fa5-8d64-2bf4c7c87ea3" />
+                                                <GridCellData ColumnId="79d2d714-3ab1-4a84-aac9-f011536420f1" Value="Club 33" Opacity="1" Id="489430c8-6d79-48e2-a9e8-3de4cb2ad782" />
+                                                <GridCellData ColumnId="00cd8154-5dea-4a4e-ad6b-5f3bd31d9d3a" Value="66" Opacity="1" Id="654a8dcd-acf5-4d67-8001-f753188f3722" />
+                                                <GridCellData ColumnId="b5c0fddd-7567-4889-b4f7-ce324e68624e" Value="Concert/Party" Opacity="1" Id="0826dd21-faf9-48ee-bed3-603eb7b770ed" />
+                                                <GridCellData ColumnId="473d6fdb-07e6-4c8d-8c31-695177e10041" Value="30/11/2017" Opacity="1" Id="ba960c0b-606d-4746-bef4-012e30b2cbc9" />
+                                                <GridCellData ColumnId="ff3f3cfd-f738-4356-84fc-4cc9ab6eb0c7" Value="45" Opacity="1" Id="f7782dd7-bcb3-42fd-8156-a8e77c5e57d0" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="41" Id="b5142d84-7331-4118-aea2-352626560f9a">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="2c0b9e48-0730-4462-9da7-931dfc3ebcc4" Value="Slavi Trifonov" Opacity="1" Id="491b28eb-5976-4a59-9936-d0cf2101f70a" />
+                                                <GridCellData ColumnId="79d2d714-3ab1-4a84-aac9-f011536420f1" Value="Town Centre" Opacity="1" Id="00dbab11-5af4-45a3-9454-52f140eab34b" />
+                                                <GridCellData ColumnId="00cd8154-5dea-4a4e-ad6b-5f3bd31d9d3a" Value="3000" Opacity="1" Id="0f8f3f6b-ef26-45f8-8af6-1ee88c2d414b" />
+                                                <GridCellData ColumnId="b5c0fddd-7567-4889-b4f7-ce324e68624e" Value="Meeting" Opacity="1" Id="e2d20f94-4d50-4e0c-96fc-d5aa17e34016" />
+                                                <GridCellData ColumnId="473d6fdb-07e6-4c8d-8c31-695177e10041" Value="25/11/2017" Opacity="1" Id="d6b06656-9f96-4bdc-938e-76c13f0bcaa1" />
+                                                <GridCellData ColumnId="ff3f3cfd-f738-4356-84fc-4cc9ab6eb0c7" Value="0" Opacity="1" Id="8c201dd0-c24c-4a8f-9dee-cb75ff5aecdf" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="58" Id="6fdaeef4-9fb2-471b-abcc-bbffee7cfa67">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="2c0b9e48-0730-4462-9da7-931dfc3ebcc4" Value="Hashovete" Opacity="1" Id="2b84c86a-a82b-47bf-a524-0d47e6f2727d" />
+                                                <GridCellData ColumnId="79d2d714-3ab1-4a84-aac9-f011536420f1" Value="Ivan Vazov Theatre" Opacity="1" Id="627a7b68-9bda-4bfa-88b2-9635c71edd56" />
+                                                <GridCellData ColumnId="00cd8154-5dea-4a4e-ad6b-5f3bd31d9d3a" Value="500" Opacity="1" Id="7c31690a-80a7-428c-bf54-71177880a072" />
+                                                <GridCellData ColumnId="b5c0fddd-7567-4889-b4f7-ce324e68624e" Value="Theatre" Opacity="1" Id="f9d5b39b-8572-4420-b12b-e86094e31ad8" />
+                                                <GridCellData ColumnId="473d6fdb-07e6-4c8d-8c31-695177e10041" Value="30/02/2018" Opacity="1" Id="b277baae-ccff-452f-a8c3-4575cccab54e" />
+                                                <GridCellData ColumnId="ff3f3cfd-f738-4356-84fc-4cc9ab6eb0c7" Value="12" Opacity="1" Id="f952c9cc-3790-4483-9979-a6f62c74caaa" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="65" Id="ad9f2f0d-c54c-4ba2-b989-40490b82f9e2">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="2c0b9e48-0730-4462-9da7-931dfc3ebcc4" Value="Olympic Games" Opacity="1" Id="632d2ed6-6d71-4b8d-af2f-2958dca9431e" />
+                                                <GridCellData ColumnId="79d2d714-3ab1-4a84-aac9-f011536420f1" Value="Sofia" Opacity="1" Id="f5a8c28b-b885-4c5f-aeb5-482290b7b5b7" />
+                                                <GridCellData ColumnId="00cd8154-5dea-4a4e-ad6b-5f3bd31d9d3a" Value="25000" Opacity="1" Id="592a4e66-a1fb-43ee-b3dc-40655ea38940" />
+                                                <GridCellData ColumnId="b5c0fddd-7567-4889-b4f7-ce324e68624e" Value="Sports" Opacity="1" Id="5fb67059-f95b-4454-a2af-8a312427f125" />
+                                                <GridCellData ColumnId="473d6fdb-07e6-4c8d-8c31-695177e10041" Value="15/01/2058" Opacity="1" Id="5dee2634-83e5-48a1-83f9-bc56c6eb9062" />
+                                                <GridCellData ColumnId="ff3f3cfd-f738-4356-84fc-4cc9ab6eb0c7" Value="250" Opacity="1" Id="fadd2e05-e326-43cb-bd1d-1ffc2b5f9b35" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="40" Id="e1a516f8-4dc4-48c1-b5eb-31062eeeda08">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="2c0b9e48-0730-4462-9da7-931dfc3ebcc4" Value="Big Brother" Opacity="1" Id="03e34733-f91b-49bd-bba1-6f90be871fe1" />
+                                                <GridCellData ColumnId="79d2d714-3ab1-4a84-aac9-f011536420f1" Value="Pernik" Opacity="1" Id="ea378f4a-afe1-4e16-9dc9-311f4c329134" />
+                                                <GridCellData ColumnId="00cd8154-5dea-4a4e-ad6b-5f3bd31d9d3a" Value="200" Opacity="1" Id="5ebf2cfe-cc7f-42bd-bcd3-15b59a437749" />
+                                                <GridCellData ColumnId="b5c0fddd-7567-4889-b4f7-ce324e68624e" Value="Other" Opacity="1" Id="7b87b776-6025-403c-a5eb-c85e4d9dfb74" />
+                                                <GridCellData ColumnId="473d6fdb-07e6-4c8d-8c31-695177e10041" Value="20/12/2018" Opacity="1" Id="ef1e4e6b-397c-4c4b-947c-aed72d951e6c" />
+                                                <GridCellData ColumnId="ff3f3cfd-f738-4356-84fc-4cc9ab6eb0c7" Value="15" Opacity="1" Id="d5a5df48-26ea-4157-a8ff-1299d0d2e325" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="61" Id="70404c31-d760-422c-8d61-a4bd3866dc16">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="2c0b9e48-0730-4462-9da7-931dfc3ebcc4" Value="Game Of Thrones" Opacity="1" Id="ef0a5494-9b03-4d91-9de2-a822994b888a" />
+                                                <GridCellData ColumnId="79d2d714-3ab1-4a84-aac9-f011536420f1" Value="Dubrovnik" Opacity="1" Id="d22c6fe8-fe81-4d5d-8bf5-fbafef1d81d2" />
+                                                <GridCellData ColumnId="00cd8154-5dea-4a4e-ad6b-5f3bd31d9d3a" Value="5000" Opacity="1" Id="b1de0d38-761d-445f-a880-735868cae32a" />
+                                                <GridCellData ColumnId="b5c0fddd-7567-4889-b4f7-ce324e68624e" Value="Other" Opacity="1" Id="2afbeffc-9658-48db-a459-279f3ab2ba03" />
+                                                <GridCellData ColumnId="473d6fdb-07e6-4c8d-8c31-695177e10041" Value="26/07/2019" Opacity="1" Id="70b57e28-6a0f-46cc-94bf-5f33eea3f208" />
+                                                <GridCellData ColumnId="ff3f3cfd-f738-4356-84fc-4cc9ab6eb0c7" Value="400" Opacity="1" Id="6704bc2f-200d-4cd9-93a0-761778cb1d0c" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="38" Id="bebcc592-27fd-4c81-9a22-c138206cc9fe">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="2c0b9e48-0730-4462-9da7-931dfc3ebcc4" Value="Cat Exhibition" Opacity="1" Id="cf470ad1-5a59-4cbc-bd66-90161e6f9c73" />
+                                                <GridCellData ColumnId="79d2d714-3ab1-4a84-aac9-f011536420f1" Value="Budapest" Opacity="1" Id="d58a8a61-db1b-4571-883a-9536992ffa4c" />
+                                                <GridCellData ColumnId="00cd8154-5dea-4a4e-ad6b-5f3bd31d9d3a" Value="130" Opacity="1" Id="cae5686a-7d8f-4506-8a43-5d83c605efda" />
+                                                <GridCellData ColumnId="b5c0fddd-7567-4889-b4f7-ce324e68624e" Value="Other" Opacity="1" Id="aed1b8d0-a994-472f-991d-65c4def4b953" />
+                                                <GridCellData ColumnId="473d6fdb-07e6-4c8d-8c31-695177e10041" Value="14/12/2018" Opacity="1" Id="0e2665b3-c7fb-4857-89b1-56e61b64f587" />
+                                                <GridCellData ColumnId="ff3f3cfd-f738-4356-84fc-4cc9ab6eb0c7" Value="35" Opacity="1" Id="4b4fde55-c102-49af-8c97-ce04020f5102" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="39" Id="7c56571c-7609-4b4f-aeba-a7c4d218a20e">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="2c0b9e48-0730-4462-9da7-931dfc3ebcc4" Value="Gallery" Opacity="1" Id="cb0b2d25-9d3a-47e5-9936-71b11d4dd059" />
+                                                <GridCellData ColumnId="79d2d714-3ab1-4a84-aac9-f011536420f1" Value="Paris" Opacity="1" Id="36e65805-424b-4e37-bb6f-e9ede55b4a5c" />
+                                                <GridCellData ColumnId="00cd8154-5dea-4a4e-ad6b-5f3bd31d9d3a" Value="300" Opacity="1" Id="f80d68cb-94f4-4967-9440-40f04c13dd37" />
+                                                <GridCellData ColumnId="b5c0fddd-7567-4889-b4f7-ce324e68624e" Value="Culture" Opacity="1" Id="7ceddf97-2824-4879-8f59-d783b8205ed0" />
+                                                <GridCellData ColumnId="473d6fdb-07e6-4c8d-8c31-695177e10041" Value="12/12/2020" Opacity="1" Id="5197a2b2-0dbf-4c8a-84eb-0f23b5d81d91" />
+                                                <GridCellData ColumnId="ff3f3cfd-f738-4356-84fc-4cc9ab6eb0c7" Value="70" Opacity="1" Id="3d60e973-93d7-4c7e-9d11-fafe03638a8b" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="41" Id="8121168c-844c-4e30-aecd-1164209dc39b">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="2c0b9e48-0730-4462-9da7-931dfc3ebcc4" Value="Marathon" Opacity="1" Id="831b0cdf-c4d1-4bbd-8dd5-cadf9c9788ff" />
+                                                <GridCellData ColumnId="79d2d714-3ab1-4a84-aac9-f011536420f1" Value="London" Opacity="1" Id="f62cc0db-aa51-40ca-823d-9e9be59c6f8d" />
+                                                <GridCellData ColumnId="00cd8154-5dea-4a4e-ad6b-5f3bd31d9d3a" Value="8000" Opacity="1" Id="a0aceafb-f45a-40f2-ba7c-456596b9bed0" />
+                                                <GridCellData ColumnId="b5c0fddd-7567-4889-b4f7-ce324e68624e" Value="Sports" Opacity="1" Id="3f2eeeee-82d8-401e-9bb5-ef71994f77a2" />
+                                                <GridCellData ColumnId="473d6fdb-07e6-4c8d-8c31-695177e10041" Value="25/06/2019" Opacity="1" Id="29cf80a1-044b-4579-8429-eb31b596e26e" />
+                                                <GridCellData ColumnId="ff3f3cfd-f738-4356-84fc-4cc9ab6eb0c7" Value="10" Opacity="1" Id="5bc6e8eb-4aaa-4d39-b666-c3d46b27d669" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="40" Id="70d94c24-be1c-4ca1-801d-231dfcc300e4">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="2c0b9e48-0730-4462-9da7-931dfc3ebcc4" Value="Aquapark" Opacity="1" Id="1dcc3ae6-552a-4e0d-a041-0ab1d22c0b99" />
+                                                <GridCellData ColumnId="79d2d714-3ab1-4a84-aac9-f011536420f1" Value="Nesebar" Opacity="1" Id="c700f72e-c0e8-4eae-8069-a023786d7f00" />
+                                                <GridCellData ColumnId="00cd8154-5dea-4a4e-ad6b-5f3bd31d9d3a" Value="3000" Opacity="1" Id="007dc024-ef2c-417f-aa9e-2007f7a65d83" />
+                                                <GridCellData ColumnId="b5c0fddd-7567-4889-b4f7-ce324e68624e" Value="Sports" Opacity="1" Id="584a4ce9-734f-46b8-9f37-c6cde44a7622" />
+                                                <GridCellData ColumnId="473d6fdb-07e6-4c8d-8c31-695177e10041" Value="10/05/2035" Opacity="1" Id="fb19221e-5e25-4555-be91-8ab141148a8b" />
+                                                <GridCellData ColumnId="ff3f3cfd-f738-4356-84fc-4cc9ab6eb0c7" Value="55" Opacity="1" Id="b962ea0b-b3fc-4615-9d4c-c0ddb844dbed" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                    </Grid.Rows>
+                                </Grid>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="dce34f5a-abc5-4e7a-997e-b2325db31b57">
+                            <Add.Item>
+                                <Label RichText="Sort By:" FontSize="24" FontFamily="Times New Roman" Id="349ca8f0-228c-4887-a832-16e79dba6d90" Panel.Bounds="152,292,86{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="dce34f5a-abc5-4e7a-997e-b2325db31b57">
+                            <Add.Item>
+                                <Button Text="Change" FontFamily="Times New Roman" Id="7a7055eb-a8fa-4cd0-9471-a9c510d5fbdb" Panel.Bounds="1150,365,86{5,2147483647},46{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="dce34f5a-abc5-4e7a-997e-b2325db31b57">
+                            <Add.Item>
+                                <Button Text="Change" FontFamily="Times New Roman" Id="f7f92b2e-203e-4afb-99f1-752354c41873" Panel.Bounds="1150,411,87{5,2147483647},39{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="dce34f5a-abc5-4e7a-997e-b2325db31b57">
+                            <Add.Item>
+                                <Button Text="Change" FontFamily="Times New Roman" Id="1d56e610-6302-4777-bcba-6cbe5b013ba1" Panel.Bounds="1150,451,86{5,2147483647},56{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="dce34f5a-abc5-4e7a-997e-b2325db31b57">
+                            <Add.Item>
+                                <Button Text="Change" FontFamily="Times New Roman" Id="edc392a5-5b16-4576-9028-090cdf37c45c" Panel.Bounds="1150,508,86{5,2147483647},67{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="dce34f5a-abc5-4e7a-997e-b2325db31b57">
+                            <Add.Item>
+                                <Button Text="Change" FontFamily="Times New Roman" Id="7d0ab13e-d6ba-4a47-8bc8-34af8b6d2deb" Panel.Bounds="1150,575,86{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="dce34f5a-abc5-4e7a-997e-b2325db31b57">
+                            <Add.Item>
+                                <Button Text="Change" FontFamily="Times New Roman" Id="6dc81828-71e5-4b6f-bce8-a646812b8e8d" Panel.Bounds="1150,607,86{5,2147483647},62{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="dce34f5a-abc5-4e7a-997e-b2325db31b57">
+                            <Add.Item>
+                                <Button Text="Change" FontFamily="Times New Roman" Id="3b525596-7806-47fd-b0b8-4d4b85f5fa88" Panel.Bounds="1150,668,87{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="dce34f5a-abc5-4e7a-997e-b2325db31b57">
+                            <Add.Item>
+                                <Button Text="Change" FontFamily="Times New Roman" Id="d7908529-9d22-4fad-9a76-8c366a931a80" Panel.Bounds="1150,701,86{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="dce34f5a-abc5-4e7a-997e-b2325db31b57">
+                            <Add.Item>
+                                <Button Text="Change" FontFamily="Times New Roman" Id="e8d0ff71-4c68-42a8-aec3-1a5622030c9e" Panel.Bounds="1150,733,86{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="dce34f5a-abc5-4e7a-997e-b2325db31b57">
+                            <Add.Item>
+                                <Button Text="Change" FontFamily="Times New Roman" Id="3a080eb3-5d17-48d4-9186-dd330fa13bcb" Panel.Bounds="1150,765,86{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="dce34f5a-abc5-4e7a-997e-b2325db31b57">
+                            <Add.Item>
+                                <Button Text="Change" FontFamily="Times New Roman" Id="c5e62644-2f02-4427-9379-a92da90feb00" Panel.Bounds="1150,796,86{5,2147483647},39{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

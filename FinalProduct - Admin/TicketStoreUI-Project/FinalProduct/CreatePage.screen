@@ -1,0 +1,263 @@
+<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="ec44b38d-7191-46fa-bc4d-39373f360fbe">
+    <Page.Content>
+        <Content Width="1280" Height="1024" Id="69c9681a-5ab2-4d3b-9033-14eedbf2fc2a">
+            <Content.Layers>
+                <Layer Id="5e3f43cd-a8d3-4b97-8600-a9750af4e907" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="e402134d-1bab-4d48-8c4a-cbf6c1040915" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1280,1024" Id="bd40b706-435c-433c-97df-acd589453560" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="2035b9b4-6c86-43a0-83f8-f900851adcb4" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/29/2017 13:40:37" Id="5488d0be-bd79-41a6-8809-8415fc428062">
+            <Scene.KeyFrames>
+                <KeyFrame Id="98d96a4d-7255-42fd-aa52-d19590ece920">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Title RichText="Create Event" FontSize="72" FontFamily="Times New Roman" Id="b6757ec6-e721-4241-ab84-612fb6992c1a" Panel.Bounds="472,36,384{5,2147483647},87{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Title RichText="Event Title" FontFamily="Times New Roman" Id="c53f7200-feb0-491f-90d7-5f383dcd1762" Panel.Bounds="218,168,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <TextBox FontSize="36" FontFamily="Times New Roman" Id="225690b0-edc8-46cf-bcaa-9dd58e014930" Panel.Bounds="409,168,683{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Title RichText="Event Type" FontFamily="Times New Roman" Id="7b96b581-bd4b-473a-ac5c-b444246eec31" Panel.Bounds="214,236,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Title RichText="Event Date" FontFamily="Times New Roman" Id="785495a7-18d4-4e6d-a7e3-55a692bdadaf" Panel.Bounds="218,467,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <TextBox WatermarkText="dd/mm/yyyy" FontSize="24" FontFamily="Times New Roman" Id="e959c561-2212-4bff-bf30-5e57e3713529" Panel.Bounds="409,473,190{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Icon CatalogId="linea-calendar" Id="e429afd4-52c5-4bf3-a87f-3189b87c786c" Name="Date Picker" Panel.Bounds="605,467,57{5,2147483647},57{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandSwitchTo SceneId="ccee7f45-6ce2-4c17-8cfa-dbe4d210035d" AutoRevertEvent="Control.Click" Created="10/30/2017 22:10:43" Id="f2e95e56-4687-4a03-812e-fd9a5df23553" />
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Title RichText="Event Location" FontFamily="Times New Roman" Id="c22c6e8e-a3e4-488c-b2ef-43c0237ee54d" Panel.Bounds="161,683,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Button Text="Create Event" FontSize="24" FontFamily="Times New Roman" Id="9bf0f12b-e53a-47d9-9740-29605eb7d355" Panel.Bounds="947,946,149{5,2147483647},52{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/TicketStoreUI-Project/FinalProduct/AdminScreen.screen" Created="11/07/2017 11:31:28" Id="28ac7d15-686f-4540-b1a5-3d313249f920">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Button Text="Cancel" FontSize="24" FontFamily="Times New Roman" Id="f37ef449-fbea-4db0-aa5c-248c1d08283d" Panel.Bounds="1118,946,149{5,2147483647},52{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/TicketStoreUI-Project/FinalProduct/AdminScreen.screen" Created="11/07/2017 11:32:02" Id="01b728ab-d9ed-4322-b05b-14f420b2fbd2">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Title RichText="Event Description" FontFamily="Times New Roman" Id="44ac272b-f234-476f-adaa-8c2b1e89408c" Panel.Bounds="123,304,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <TextArea FontSize="24" FontFamily="Times New Roman" Id="650578f8-4ae5-4bdc-9786-a9e62df3cea5" Panel.Bounds="409,307,687{5,2147483647},71{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <TextArea WatermarkText="Country, City, Street, etc.(press enter)" FontSize="24" FontFamily="Times New Roman" Id="47d7d651-ef64-4901-9508-e23bf7ba4598" Panel.Bounds="409,686,481{5,2147483647},34{5,2147483647}">
+                                    <TextArea.KeyDown>
+                                        <ConditionalCommand Id="34b043c4-04da-40f9-9f01-9a417ae6d5f1">
+                                            <ConditionalCommand.Command>
+                                                <CommandSwitchTo SceneId="72c3ae35-796a-4e8a-9829-17bf1fe5d6d0" Created="10/30/2017 22:16:51" Id="5ce21378-525e-4aec-9d8c-32212f625e39" />
+                                            </ConditionalCommand.Command>
+                                            <ConditionalCommand.Condition>
+                                                <KeyCondition Key="Enter" />
+                                            </ConditionalCommand.Condition>
+                                        </ConditionalCommand>
+                                    </TextArea.KeyDown>
+                                </TextArea>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <ComboBox FontSize="21" FontFamily="Times New Roman" Id="dac1c0dd-b6e6-4f28-b19c-9ac25e2abf80" Panel.Bounds="409,235,249{5,2147483647},48{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Concert" Id="534e2b51-d72b-47e1-90c7-0375e8795d9f" />
+                                        <Item Text="Theatre" Id="3cd72897-37be-4d63-8f83-8c9d6e1317c1" />
+                                        <Item Text="Culture" Id="e553ff08-585a-4f61-8f38-d6dac0571316" />
+                                        <Item Text="Sports" Id="9ac4bf26-fb08-464b-94c5-7685fb22e295" />
+                                        <Item Text="Family" Id="e3f7f5ce-d5f7-4d8a-bb85-7854e6981b87" />
+                                        <Item Text="Party" Id="137a99dc-fbcd-4e79-bfdf-f18ed5303e62" />
+                                        <Item Text="Other" Id="b2060cb5-5b85-4376-b6e7-4e062966c093" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Title RichText="Tickets Available" FontFamily="Times New Roman" Id="5648effb-77d3-48fd-b4d6-2a8d17730130" Panel.Bounds="134,543,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <TextArea FontSize="21" FontFamily="Times New Roman" Id="ad0a7d07-4df7-4f4c-b0c4-d415fb8525ce" Panel.Bounds="409,546,190{5,2147483647},34{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Title RichText="Ticket Price" FontFamily="Times New Roman" Id="b2e7bd2f-2341-41b5-beec-ac47f3126f5d" Panel.Bounds="204,611,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <TextArea FontSize="21" FontFamily="Times New Roman" Id="25daa572-b534-4412-89c1-e8b4f0fbd075" Panel.Bounds="409,614,190{5,2147483647},34{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <ComboBox IsOpen="True" Hint="Navigate" Id="39359279-e575-4d01-88ac-f44a5042d896" Panel.Bounds="1114,46,123{5,2147483647},27{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Profile" Id="d4623826-60c1-41e2-b991-e2213709d5eb">
+                                            <Item.Selected>
+                                                <CommandNavigate Screen="/TicketStoreUI-Project/FinalProduct/ProfilePage.screen" Created="11/07/2017 11:32:37" Id="976025c5-56d8-4d89-bf58-e02232eb8fa6">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Item.Selected>
+                                            <Item.Click>
+                                                <CommandNavigate Screen="/TicketStoreUI-Project/FinalProduct/ProfilePage.screen" Created="11/07/2017 11:41:09" Id="9ffafe4f-bcbb-475b-8796-f6f5e9f8858e">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Item.Click>
+                                        </Item>
+                                        <Item Text="Information" Id="4df6846b-1882-4905-a66f-3c1f9b03548d" />
+                                        <Item Text="Basket" Id="0756086c-f12d-4fee-b250-52ade30ea8f6" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Icon CatalogId="fa-user" Id="313d3817-c0e4-4c26-a96f-4b182df66c83" Panel.Bounds="1211,46,26{5,2147483647},26{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Title RichText="Event Image" FontFamily="Times New Roman" Id="2ed802f2-3ca5-4dda-937a-0f7451a8950f" Panel.Bounds="197,396,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Button Text="Upload Photo" FontSize="21" FontFamily="Times New Roman" Id="0b3c7d89-b495-4899-a2cd-3ce43b115f98" Panel.Bounds="409,398,145{5,2147483647},40{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked Date Picker" ParentScene="5488d0be-bd79-41a6-8809-8415fc428062" Created="10/30/2017 22:10:43" Id="ccee7f45-6ce2-4c17-8cfa-dbe4d210035d">
+            <Scene.KeyFrames>
+                <KeyFrame Id="6fea5608-6ed6-401e-ad5c-0a1f28c9c8a7">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Image SourcePath="assets/printable-2017-november-calendar.gif" Id="ac2b7488-acc4-4e4a-8f3a-14914d5b0c4d" Panel.Bounds="663,467,362{5,2147483647},268{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Button Text="X" FontFamily="Times New Roman" Id="f47dd8ff-080a-495a-ab09-d577f0b412ae" Panel.Bounds="977,471,36{5,2147483647},34{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="015a239f-4e5b-4ed0-9dbf-3abe93dbf2a6" Created="10/30/2017 22:13:08" Id="e3c8019f-c767-4233-b310-13dd266ea3da" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked X" StateGroup="ccee7f45-6ce2-4c17-8cfa-dbe4d210035d" ParentScene="ccee7f45-6ce2-4c17-8cfa-dbe4d210035d" Created="10/30/2017 22:13:08" Id="015a239f-4e5b-4ed0-9dbf-3abe93dbf2a6">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3edd5361-6e34-4321-b72e-ab708e7cc0b1">
+                    <KeyFrame.Operations>
+                        <Remove Target="ac2b7488-acc4-4e4a-8f3a-14914d5b0c4d" />
+                        <Remove Target="f47dd8ff-080a-495a-ab09-d577f0b412ae" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Pressed Enter on Text Area" StateGroup="5488d0be-bd79-41a6-8809-8415fc428062" ParentScene="5488d0be-bd79-41a6-8809-8415fc428062" Created="10/30/2017 22:16:51" Id="72c3ae35-796a-4e8a-9829-17bf1fe5d6d0">
+            <Scene.KeyFrames>
+                <KeyFrame Id="019c09d4-ebf9-4d27-bc95-37b08c5e6338">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <MapMock MockType="Street Map" Id="5428c295-5b57-433b-a604-da14d3f9399e" Panel.Bounds="411,721,479{5,2147483647},197{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5e3f43cd-a8d3-4b97-8600-a9750af4e907">
+                            <Add.Item>
+                                <Button Text="Close" FontSize="24" FontFamily="Times New Roman" Id="23a155d6-73a0-42da-85cf-a62c59885e65" Panel.Bounds="777,874,113{5,2147483647},44{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="5488d0be-bd79-41a6-8809-8415fc428062" Created="10/30/2017 22:33:18" Id="fdea5639-0a8d-4600-98dd-7a807dfaf6ec" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Resize To="481,34" Target="47d7d651-ef64-4901-9508-e23bf7ba4598" />
+                        <Set Property="TextBox.WatermarkText" Value="Country, City, Street, etc.(press enter)" Target="47d7d651-ef64-4901-9508-e23bf7ba4598" />
+                        <Move To="204,612" Target="b2e7bd2f-2341-41b5-beec-ac47f3126f5d" />
+                        <Move Top="True" Target="25daa572-b534-4412-89c1-e8b4f0fbd075" />
+                        <Move Top="True" Target="5648effb-77d3-48fd-b4d6-2a8d17730130" />
+                        <Move Top="True" Target="ad0a7d07-4df7-4f4c-b0c4-d415fb8525ce" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

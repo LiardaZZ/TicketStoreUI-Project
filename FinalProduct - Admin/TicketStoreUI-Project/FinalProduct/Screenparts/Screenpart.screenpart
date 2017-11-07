@@ -1,0 +1,47 @@
+<?Infragistics.Models format="xaml" version="3" appVersion="9.2.1000.51"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                        xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                        Id="c996a6a5-f90a-4f42-94b9-a3860259178d" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="89" Height="26" Background="#00FFFFFF" Id="b8344704-6608-406d-8fdb-a9284e58b16e">
+            <BorderedContent.Layers>
+                <Layer Id="1a7b36cd-db5c-4eae-b80f-ea5bc80890c9" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="62043d7f-8e5e-41d6-854d-7ab23c75a0f2" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="048261b8-44c0-484f-afa5-a37f0e4841e8" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="85ad9c53-32f3-4604-8856-a7cc46e488e1" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="10/29/2017 18:15:33" Id="2dfc0407-e151-4393-aa62-a6216fcbf8c0">
+            <Scene.KeyFrames>
+                <KeyFrame Id="fa17cb99-a0be-4ef5-b410-ead749d8c83d">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="1a7b36cd-db5c-4eae-b80f-ea5bc80890c9">
+                            <Add.Item>
+                                <ComboBox Hint="Profile" Id="bed2d0f1-8345-48a2-ada0-08916c73a325" Panel.Bounds="0,2,89{5,2147483647},24{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Information" Id="d4a20e50-1bb7-447d-8a78-f6346ada687b" />
+                                        <Item Text="Basket" Id="d0c4a306-f1ed-4e7d-8756-d958c257f461" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1a7b36cd-db5c-4eae-b80f-ea5bc80890c9">
+                            <Add.Item>
+                                <Icon CatalogId="fa-user" Id="40a07af7-9f34-4590-af75-875343394400" Panel.Bounds="60,0,26{5,2147483647},26{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>
